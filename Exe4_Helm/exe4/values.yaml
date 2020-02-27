@@ -5,7 +5,8 @@
 replicaCount: 3
 
 image:
-  repository: avielb/todo:latest
+  repository: avielb/todo
+  tag: latest
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
